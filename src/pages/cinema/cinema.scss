@@ -1,0 +1,43 @@
+.cinema{
+    background-color: #fff;
+    height: 100%;
+    .cinema-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        position: sticky;
+        background-color: #fff;
+        top: 0;
+        img{
+            width: 20px;
+        }
+    }
+    .cinema-list{
+        background-color: #fff;
+       .cinema-list-details{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h2{
+                font-weight: normal;
+            }
+            .price{
+                color: #ff406f;
+                font-size: 16px;
+            }
+        }
+        .site{
+            margin-bottom: 5px;
+            color: #000;
+        }
+        .describe{
+            margin-bottom: 5px;
+            color: #777;
+        }
+       } 
+    }
+}

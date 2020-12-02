@@ -1,0 +1,60 @@
+.hoting {
+    .hoting-movie-list {
+        // padding: 20px;
+        .hoting-movie-introduce {
+            display: flex;
+            // margin-bottom: 20px;
+            background-color: #fff;
+            width: 100%;
+            .movie-img {
+                width: 85px;
+                height: 130px;
+                background-color: #ccc;
+            }
+
+            .movie-introduce-minute {
+                width: 100%;
+                background-color: #fff;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                padding: 8px;
+
+                .title {
+                    font-size: 20px;
+                    margin-bottom: 7px;
+                    color: #444;
+                    
+                }
+                span{
+                    margin-bottom: 7px;
+                    font-size: 14px;
+                }
+                .score{
+                    color: #666;
+                    em{
+                        font-style: normal;
+                        color: #ffb04b;
+                    }
+                }
+                .director{
+                    color: #666;
+                }
+                .protagonist{
+                    color: #666;
+                }
+            }
+
+            button {
+                width: 60px;
+                height: 30px;
+                color: #fff;
+                border: 0;
+                background-color: #ff2e62;
+                border-radius: 20px;
+                // letter-spacing: 5px;
+                align-self: center;
+            }
+        }
+    }
+}
