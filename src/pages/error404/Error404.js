@@ -5,6 +5,7 @@ export default class Error404 extends Component {
         return (
             <div>
                 404页面
+                123456
             </div>
         )
     }
